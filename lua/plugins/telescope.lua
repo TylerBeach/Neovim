@@ -19,7 +19,6 @@ return {
       vim.keymap.set("n", "<leader>fg", builtin.live_grep, {})
       vim.keymap.set("n", "<leader><leader>", builtin.oldfiles, {})
 
-      require("telescope").load_extension("ui-select")
     end,
   },
 }
